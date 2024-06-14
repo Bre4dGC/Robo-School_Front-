@@ -5,7 +5,6 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  cursor: default;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
@@ -111,7 +110,7 @@ body {
 
 /* title */
 .text-container .title {
-  font-size: 70px;
+  font-size: clamp(50px, 5vw, 70px);
   font-weight: 600;
   margin-bottom: 40px;
 }
@@ -119,7 +118,7 @@ body {
 
 /* under title text */
 .text-container .text {
-  font-size: 30px;
+  font-size: clamp(10px, 150vw, 30px);
   line-height: 45px;
   max-width: 700px;
 }
@@ -133,15 +132,14 @@ body {
   cursor: pointer;
   font-size: 15px;
   margin-top: 80px;
+  border: none;
   border-radius: 6px;
-  border: #d52027;
-  background: #d52027;
+  background: #bd1c21;
 }
 /* record-btn */
 
 /* girl-img */
 .person-container img {
-  max-width: 600px;
   mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.473));
 }
 /* girl-img */
@@ -233,7 +231,6 @@ body {
 
 .result-container .discription {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .discription .item {
@@ -256,4 +253,29 @@ body {
 }
 /* result */
 
+/* coaches */
+
+/* coaches */
+
+/* price */
+
+.price {
+  padding: 150px 0;
+}
+
+.price-list-container {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.bbb {
+  height: 500px;
+  text-align: center;
+}
+
+/* price */
 /* main */
